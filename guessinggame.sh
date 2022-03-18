@@ -17,7 +17,7 @@ function GuessAgain() {
 
 function GuessGame() {
    
-   while[[$guess -ne $CorrectFiles]]
+   while [[$guess -ne $CorrectFiles]]
    do
       
      if [$number -lt $CorrectFiles]
